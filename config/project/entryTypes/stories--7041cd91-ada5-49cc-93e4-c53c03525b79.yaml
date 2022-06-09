@@ -1,5 +1,5 @@
 fieldLayouts:
-  ca0d51b9-1874-4baf-9439-cefa56eb725a:
+  02e20ed2-0872-4991-9262-e644df480deb:
     tabs:
       -
         elements:
@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: bd35fc5d-5ce0-4185-83d7-98f2ad978264 # Hero Title
+            fieldUid: b22d987a-1d0a-4392-8ca8-7e281f77777f # Photos
             instructions: null
             label: null
             required: false
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 58e06bef-1635-49d1-823f-b385ed5628e5 # Hero Image
+            fieldUid: 58521031-d4af-4637-ae75-83877a7f0a34 # Rich Text
             instructions: null
             label: null
             required: false
@@ -44,48 +44,22 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: Hero
+          -
+            fieldUid: 4cb46bfa-239c-40e8-857e-31eaf3adde0d # Short Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
         sortOrder: 1
-      -
-        elements:
-          -
-            fieldUid: ca5012c1-f222-4861-a3c9-49f5e0f32681 # Featured Story
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-        name: Featured
-        sortOrder: 2
-      -
-        elements:
-          -
-            fieldUid: c40bfb8d-fbd3-41a1-a661-f515c3b7df22 # Riders Intro Content
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: d7364f80-52e6-4056-ab7a-2653484d5745 # Riders
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-        name: Riders
-        sortOrder: 3
-handle: home
-hasTitleField: false
-name: Home
-section: 9be3a6c3-8c62-40d1-ae0e-eecdfa05e096 # Home
+handle: stories
+hasTitleField: true
+name: Stories
+section: 0a2eaeae-8694-46c5-8786-e5a27bbed38c # Stories
 sortOrder: 1
-titleFormat: '{section.name|raw}'
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

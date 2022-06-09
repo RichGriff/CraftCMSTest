@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: storyListing
+name: 'Story Listing'
+propagationMethod: all
+siteSettings:
+  5bbb0374-ff90-401c-8e26-8d9766708f0d: # Craft CMS Test
+    enabledByDefault: true
+    hasUrls: true
+    template: stories\index.twig
+    uriFormat: stories
+type: single

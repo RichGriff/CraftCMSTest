@@ -1,0 +1,19 @@
+columnSuffix: wqtwvsyt
+contentColumnType: text
+fieldGroup: 866e8573-b0a5-48e1-af43-5011ef7554c4 # Common
+handle: shortDescription
+instructions: ''
+name: 'Short Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

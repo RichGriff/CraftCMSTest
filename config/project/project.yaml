@@ -1,20 +1,28 @@
-dateModified: 1654773428
+dateModified: 1654783364
 email:
   fromEmail: rich.griffiths@poblgroup.co.uk
   fromName: 'Craft CMS Test'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    0a2eaeae-8694-46c5-8786-e5a27bbed38c: Stories # Stories
     3fe1924b-6e29-4478-8339-dab670d8080d: 'Craft CMS Test' # Craft CMS Test
+    4cb46bfa-239c-40e8-857e-31eaf3adde0d: 'Short Description' # Short Description
     5bbb0374-ff90-401c-8e26-8d9766708f0d: 'Craft CMS Test' # Craft CMS Test
     9be3a6c3-8c62-40d1-ae0e-eecdfa05e096: Home # Home
     32e16a77-0cd2-4093-b4e2-0ee824da5343: Rider # Rider
     58e06bef-1635-49d1-823f-b385ed5628e5: 'Hero Image' # Hero Image
     866e8573-b0a5-48e1-af43-5011ef7554c4: Common # Common
+    7041cd91-ada5-49cc-93e4-c53c03525b79: Stories # Stories
     7552a7a2-31f3-4113-b996-07eb356a45bf: Uploads # Uploads
+    43108c13-9d8b-4af7-a57b-cdac424f33a2: 'Story Listing' # Story Listing
+    134251f7-6216-4b02-8d02-fa9ceb4ef4c4: 'Story Listing' # Story Listing
+    58521031-d4af-4637-ae75-83877a7f0a34: 'Rich Text' # Rich Text
+    b22d987a-1d0a-4392-8ca8-7e281f77777f: Photos # Photos
     bd35fc5d-5ce0-4185-83d7-98f2ad978264: 'Hero Title' # Hero Title
     c40bfb8d-fbd3-41a1-a661-f515c3b7df22: 'Riders Intro Content' # Riders Intro Content
     c52c5964-f078-49a6-87ed-7b8e57a155f4: 'Full Name' # Full Name
+    ca5012c1-f222-4861-a3c9-49f5e0f32681: 'Featured Story' # Featured Story
     d7364f80-52e6-4056-ab7a-2653484d5745: Riders # Riders
     db55fc1d-7d70-4165-8011-2e3ce7a7a6b6: Description # Description
     e1536727-b059-4acb-9e4c-32c8fb684264: Photo # Photo
