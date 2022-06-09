@@ -1,4 +1,4 @@
-dateModified: 1654699117
+dateModified: 1654773428
 email:
   fromEmail: rich.griffiths@poblgroup.co.uk
   fromName: 'Craft CMS Test'
@@ -8,8 +8,23 @@ meta:
     3fe1924b-6e29-4478-8339-dab670d8080d: 'Craft CMS Test' # Craft CMS Test
     5bbb0374-ff90-401c-8e26-8d9766708f0d: 'Craft CMS Test' # Craft CMS Test
     9be3a6c3-8c62-40d1-ae0e-eecdfa05e096: Home # Home
+    32e16a77-0cd2-4093-b4e2-0ee824da5343: Rider # Rider
+    58e06bef-1635-49d1-823f-b385ed5628e5: 'Hero Image' # Hero Image
     866e8573-b0a5-48e1-af43-5011ef7554c4: Common # Common
+    7552a7a2-31f3-4113-b996-07eb356a45bf: Uploads # Uploads
+    bd35fc5d-5ce0-4185-83d7-98f2ad978264: 'Hero Title' # Hero Title
+    c40bfb8d-fbd3-41a1-a661-f515c3b7df22: 'Riders Intro Content' # Riders Intro Content
+    c52c5964-f078-49a6-87ed-7b8e57a155f4: 'Full Name' # Full Name
+    d7364f80-52e6-4056-ab7a-2653484d5745: Riders # Riders
+    db55fc1d-7d70-4165-8011-2e3ce7a7a6b6: Description # Description
+    e1536727-b059-4acb-9e4c-32c8fb684264: Photo # Photo
     eddad741-3c7b-478c-890c-8b3305386a91: Home # Home
+    f50dc7f6-014b-4f6b-8f59-6d93e6167a1c: 'Home Page' # Home Page
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true

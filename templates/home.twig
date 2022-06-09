@@ -2,10 +2,12 @@
 
 {% block content %}
 
-<section class="hero" style="background-image: url('{{ siteUrl }}static/images/photos/hero.jpg')">
+{% set image = entry.heroImage.one() %}
+
+<section class="hero" style="background-image: url('{{ image.url }}')">
     <div class="hero__content content-column">
 
-    <h1>Motorcycle Stories, Lifestyle, and Gear</h1>
+    <h1>{{ entry.heroTitle }}</h1>
     
     </div>
 </section>
@@ -56,28 +58,19 @@
 <section class="section section--more-padding section--light section--angled-top">
     <div class="content-column centered">
 
-    <h2>Meet the Riders</h2>
-    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    {{ entry.ridersIntroContent }}
     
     <div class="flex-columns">
 
-        <div class="flex-columns__item">
-        <img src="{{ siteUrl }}static/images/photos/henry-potter.jpg" alt="Henry Potter" class="flex-columns__image">
-        <h4>Henry Potter</h4>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-        </div>
+        {% for rider in entry.riders.all() %}
+            {% set photo = rider.photo.one() %}
 
-        <div class="flex-columns__item">
-        <img src="{{ siteUrl }}static/images/photos/sarah-bradbury.jpg" alt="Sarah Bradbury" class="flex-columns__image">
-        <h4>Sarah Bradbury</h4>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-        </div>
-
-        <div class="flex-columns__item">
-        <img src="{{ siteUrl }}static/images/photos/jack-starfield.jpg" alt="Jack Starfield" class="flex-columns__image">
-        <h4>Jack Starfield</h4>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-        </div>
+            <div class="flex-columns__item">
+                <img src="{{ photo.url }}" alt="{{ rider.fullName }}" class="flex-columns__image">
+                <h4>{{ rider.fullName }}</h4>
+                <p>{{ rider.description }}</p>
+            </div>
+        {% endfor %}
         
     </div>
     

@@ -1,0 +1,19 @@
+columnSuffix: nprobopk
+contentColumnType: text
+fieldGroup: f50dc7f6-014b-4f6b-8f59-6d93e6167a1c # Home Page
+handle: heroTitle
+instructions: ''
+name: 'Hero Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

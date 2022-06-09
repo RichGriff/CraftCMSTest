@@ -1,0 +1,27 @@
+columnSuffix: yuipkdib
+contentColumnType: text
+fieldGroup: f50dc7f6-014b-4f6b-8f59-6d93e6167a1c # Home Page
+handle: ridersIntroContent
+instructions: ''
+name: 'Riders Intro Content'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: ''
+  purifyHtml: '1'
+  redactorConfig: ''
+  removeEmptyTags: '1'
+  removeInlineStyles: '1'
+  removeNbsp: '1'
+  showHtmlButtonForNonAdmins: '1'
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field
